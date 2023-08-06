@@ -108,3 +108,52 @@ font-family: 'Lobster', cursive;
   
       
 }
+@media screen and (max-width: 1080px) and (max-height: 2400px) {
+    body{
+        height: 146rem;
+        justify-content: space-evenly;
+    }
+    form{
+        
+        height: 100rem;
+        width: 60rem;
+       
+    }
+    
+    .setup{
+       height: 6rem;
+       width: 42rem;
+    }
+    .setup input{
+     height: inherit;
+     width: inherit;
+     font-size: 2rem;
+      
+    }
+    h1{
+        font-size: 12rem;
+    }
+    .textInput{
+        height: 10rem;
+        width: 42rem;
+       
+    }
+    textarea{
+         height: 15rem;
+        border-radius: 1rem;
+        width: 42rem;
+    }
+    .footer{
+      
+        height: 9rem;
+       
+     }
+     .contact{
+        height: 4rem;
+        width: 7rem;
+       
+     }
+     .footerContent {
+        font-size: 2rem;
+     }
+}
