@@ -27,6 +27,9 @@ form{
 .setup{
     display: flex;
     border-radius: 2rem;
+   justify-content: center;
+   align-items: center;
+   width: inherit;
 }
 .setup input{
     border-radius: 1rem;
@@ -34,6 +37,7 @@ form{
   font-family: 'Lobster', cursive;
   color: grey;
   text-align: center;
+  height: 3rem;
   
 }
 h1{
@@ -92,15 +96,15 @@ font-family: 'Lobster', cursive;
 }
 
 
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:465px) {
     form{
         border: none;
-       width: 30rem;
+       width: 23rem;
        margin-bottom: 8rem;
     }
     .text input{
         width: inherit;
     }
-
+  
       
 }
