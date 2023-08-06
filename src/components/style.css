@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Mea+Culpa&family=Satisfy&family=Signika+Negative:wght@300&family=Tangerine&family=Tilt+Prism&display=swap');
+body {
+  background-image: linear-gradient(to right, #191970  ,
+  #B87333 );
+
+  height: 100vh;
+  font-family: 'Lobster', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  color: #FFFFFF; 
+}
+
+form{
+    /* border: 2px solid rgb(118, 118, 124); */
+    border-radius: 2rem;
+    display: flex;
+    height: 80vh;
+    width: 55vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 61px 0px #3d3939;
+}
+
+.setup{
+    display: flex;
+    border-radius: 2rem;
+}
+.setup input{
+    border-radius: 1rem;
+  border: none;
+  font-family: 'Lobster', cursive;
+  color: grey;
+  text-align: center;
+  
+}
+h1{
+    font-size: 6rem;
+}
+.textInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    height: 5rem;
+    border-radius: 1rem;
+   
+}
+textarea{
+
+    border-radius: 1rem;
+    width: 22rem;
+}
+.footer{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+   margin-top: 5.3rem;
+  justify-content: center;
+    height: 4.3rem; margin-bottom: 0;
+    box-shadow: 0px 0px 61px 0px #3d3939;
+ }
+ .footer:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 16px 2px black;
+ }
+ .footerContent{
+color: black;
+font-family: 'Lobster', cursive;
+ }
+ .contactCol{
+    display: flex;
+
+ }
+ .contact{
+   height: 2rem;
+   width: 2rem;
+   list-style: none;
+   margin: 0.4rem;
+ }
+ .contact a{
+    height: inherit;
+ }
+ .contact a img{
+  height: inherit;
+ }
+.contact a:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+@media  screen and (max-width:400px) {
+    form{
+        border: none;
+       width: 46vh;
+       margin-bottom: 8rem;
+    }
+
+      
+}
