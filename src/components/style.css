@@ -97,26 +97,30 @@ font-family: 'Lobster', cursive;
 
 
 @media  screen and (max-width:465px) {
-    body{
-        background-image: none;
-        background-color: white;
-        color: black;
-    }
+
     .setup input{
-        border: 2px solid grey;
+        height: 3rem;
+        width: 7rem;
+       
     }
+ 
     form{
         border: none;
        width: 23rem;
        margin-bottom: 8rem;
-       box-shadow: none;
+      
     }
     .text input{
-        width: inherit;
+        width: 16rem;
     }
-  .footer{
-   border: 2px solid gray;
-    box-shadow: none;
+ 
+  h1{
+    font-size: 5rem;
   }
-      
+      .textInput{
+        width: 16rem;
+      }
+    textarea{
+        width: 16rem;
+    }
 }
