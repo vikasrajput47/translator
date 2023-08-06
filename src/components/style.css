@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(to right, #191970  ,
   #B87333 );
 
-  height: 100vh;
+
   font-family: 'Lobster', cursive;
   display: flex;
   align-items: center;
@@ -16,8 +16,8 @@ form{
     /* border: 2px solid rgb(118, 118, 124); */
     border-radius: 2rem;
     display: flex;
-    height: 80vh;
-    width: 55vh;
+    height: 40rem;
+    width: 30rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -95,8 +95,11 @@ font-family: 'Lobster', cursive;
 @media  screen and (max-width:400px) {
     form{
         border: none;
-       width: 46vh;
+       width: 30rem;
        margin-bottom: 8rem;
+    }
+    .text input{
+        width: inherit;
     }
 
       
